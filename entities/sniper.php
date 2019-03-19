@@ -4,7 +4,7 @@ require_once 'soldier.php';
 
 /* 
    Entity based on Soldier which fights in a battle for the army
-   
+
    Has variables: 
    alive(inherited, boolean, is soldier alive or not)
    health(inherited, integer, health value of the soldier)
@@ -19,7 +19,7 @@ class Sniper extends Soldier
     function __construct()
     {
         parent::__construct();
-        $this->atrackDamage = 50;
+        $this->attackDamage = 50;
     }
 
     // Prints sniper's health
